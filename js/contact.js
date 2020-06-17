@@ -3,10 +3,10 @@ function contactform(){
         var firstname=document.getElementById('inputFirstName'),
             lastname=document.getElementById('inputLastName'),
             email=document.getElementById('inputEmail'),
-            std=document.getElementById('inputStandard'),
+            phone=document.getElementById('inputPhone'),
             msg=document.getElementById('inputMessage');
 
-        if(!firstname.value || !lastname.value || !email.value || !std.value || !msg.value){
+        if(!firstname.value || !lastname.value || !email.value || !phone.value || !msg.value){
             alertify.error('please check your entries')
         }else{
             $.ajax({
