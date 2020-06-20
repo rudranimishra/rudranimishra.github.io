@@ -16,16 +16,20 @@ body {
     z-index: 9;
   }
 #features-section {
-  scroll-margin-top: 100px;
+  padding-top: 150px;
+  margin-top: -50px;
 }
 #about-section {
-  scroll-margin-top: 100px;
+  padding-top: 150px;
+  margin-top: -50px;
 }
 #our-team-section {
-  scroll-margin-top: 100px;
+  padding-top: 150px;
+  margin-top: -50px;
 }
 #contact-section {
-  scroll-margin-top: 100px;
+  padding-top: 150px;
+  margin-top: -50px;
 }
 ::-moz-selection {
   background: #000;
