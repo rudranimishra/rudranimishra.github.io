@@ -180,7 +180,7 @@ h1, h2, h3, h4, h5,
   .site-footer p {
     color: #737373; }
   .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5 {
-    color: #fffede; }
+    color: #653818; }
   .site-footer a {
     color: #999999; }
     .site-footer a:hover {
@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5,
     margin-bottom: 10px; }
   .site-footer .footer-heading {
     font-size: 16px;
-    color: #fffede; }
+    color: #653818; }
 
 .bg-text-line {
   display: inline;
@@ -1572,14 +1572,14 @@ h1, h2, h3, h4, h5,
     transition: .1s all ease; }
   .popular-category:hover {
     background: #653818;
-    -webkit-box-shadow: 0 5px 30px -5px rgba(66, 133, 244, 0.5);
+    -webkit-box-shadow: 0 5px 30px -5px rgba(244, 226, 66, 0.884);
     box-shadow: 0 5px 30px -5px rgba(66, 133, 244, 0.5); }
     .popular-category:hover .caption {
       color: #fffede; }
     .popular-category:hover .icon {
       color: #fffede; }
     .popular-category:hover .number {
-      background: #2a75f3;
+      background: #653818;
       color: #fffede; }
 
 @media (max-width: 1199.98px) {
@@ -1823,7 +1823,7 @@ h1, h2, h3, h4, h5,
   position: absolute;
   bottom: -10px;
   right: -10px;
-  background: #007bff;
+  background: #653818;
   padding: 20px; }
   @media (max-width: 991.98px) {
     .experience {
