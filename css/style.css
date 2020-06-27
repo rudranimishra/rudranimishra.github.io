@@ -7,13 +7,16 @@ body {
   background: #fffede !important;
   color:#653818; }
 
-  .form-popup {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 25px;
-    border: 3px solid #f1f1f1;
-    z-index: 9;
+  .container1 {
+    position: relative;
+  }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
   }
 #features-section {
   padding-top: 150px;
