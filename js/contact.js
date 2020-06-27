@@ -1,12 +1,11 @@
 function contactform(){
     $('#contact-form').submit(function(e){
-        var Name=document.getElementById('inputFirstName'),
-            Surname=document.getElementById('inputLastName'),
+        var Name=document.getElementById('inputName'),
             Email=document.getElementById('inputEmail'),
-            Phone_no=document.getElementById('inputPhone'),
+            Phone_no=document.getElementById('inputPhone_no'),
             Message=document.getElementById('inputMessage');
 
-        if(!firstname.value || !lastname.value || !email.value || !phone.value || !msg.value){
+        if(!Name.value || !Email.value || !Phone_no.value || !Message.value){
             alertify.error('please check your entries')
         }else{
             $.ajax({
