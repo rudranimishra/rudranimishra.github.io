@@ -12,9 +12,9 @@ body {
   }
   .mapouter{
     position:relative;
-    text-align:right;
+    text-align: left;
     height:500px;
-    width:700px;
+    width:600px;
   }
   .gmap_canvas {
     overflow:hidden;
@@ -23,11 +23,11 @@ body {
     width:600px;
   }
  
-  .left {
+  .right {
     position: absolute;
     top: 50%;
     width: 100%;
-    text-align: left;
+    text-align: right;
     font-size: 20px;
   }
   
