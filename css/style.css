@@ -10,6 +10,18 @@ body {
   .container1 {
     position: relative;
   }
+  .mapouter{
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:700px;
+  }
+  .gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:600px;
+  }
  
   .left {
     position: absolute;
